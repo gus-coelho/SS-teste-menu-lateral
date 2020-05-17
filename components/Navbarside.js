@@ -4,12 +4,6 @@ const Navbarside = () => (
   <>
     <div className="middle">
       <div className="menu">
-        <li className="item" id="blog">
-          <a href="#where" className="btn">
-            Blog
-          </a>
-        </li>
-
         <li className="item" id="news">
           <a href="#news" className="btn">
             Notícias
@@ -20,6 +14,12 @@ const Navbarside = () => (
             <a href="#">Juvenil</a>
             <a href="#">Profissional</a>
           </div>
+        </li>
+
+        <li className="item" id="blog">
+          <a href="#where" className="btn">
+            Blog e Artigos
+          </a>
         </li>
 
         <li className="item" id="events">
